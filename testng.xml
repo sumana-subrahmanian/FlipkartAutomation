@@ -3,10 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="testCases.FlipkartResulTest"/>
-      <class name="testCases.FlipkartAddToCartTest"/>
-      <class name="testCases.FlipkartFilterTest"/>
-      <class name="testCases.FlipkartSearchtest"/>
+       <class name="testRunner.TestRunner"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
