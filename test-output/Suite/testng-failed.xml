@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.FlipkartFilterTest">
+        <methods>
+          <include name="last"/>
+          <include name="openApp"/>
+          <include name="testFilterBrand"/>
+          <include name="initiallize"/>
+          <include name="testFilterRAM"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testCases.FlipkartFilterTest -->
+      <class name="testCases.FlipkartAddToCartTest">
+        <methods>
+          <include name="last"/>
+          <include name="openApp"/>
+          <include name="addToCart"/>
+          <include name="cart"/>
+          <include name="closeApp"/>
+          <include name="initiallize"/>
+        </methods>
+      </class> <!-- testCases.FlipkartAddToCartTest -->
+      <class name="testCases.FlipkartResulTest">
+        <methods>
+          <include name="changeWndow"/>
+          <include name="openApp"/>
+          <include name="getProductDetails"/>
+          <include name="initiallize"/>
+          <include name="resultClick"/>
+          <include name="closeApp"/>
+          <include name="last"/>
+        </methods>
+      </class> <!-- testCases.FlipkartResulTest -->
+      <class name="testCases.FlipkartSearchtest">
+        <methods>
+          <include name="initialize"/>
+          <include name="openApp"/>
+          <include name="last"/>
+          <include name="searchmobile"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- testCases.FlipkartSearchtest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
