@@ -67,11 +67,19 @@
             <version>7.6.1</version>
             <scope>test</scope>
         </dependency>
+        
         <dependency>
+    		<groupId>io.cucumber</groupId>
+    		<artifactId>cucumber-testng</artifactId>
+    		<version>7.25.0</version>
+		</dependency>
+
+        
+        <!--dependency>
         	<groupId>AutomationFrameWork</groupId>
         	<artifactId>AutomationFrameWork</artifactId>
         	<version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        </dependency -->
         
         
         <dependency>
